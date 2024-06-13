@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc579"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/round"
+        android:layout_centerInParent="true"
+        android:id="@+id/img_nyam"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+        android:layout_below="@+id/img_nyam"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="#ff914d"/>
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelompok 6"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"/>
+
+</RelativeLayout>
