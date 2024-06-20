@@ -2,25 +2,31 @@ package com.example.akhir
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.akhir.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
-import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.fragment_jajan.*
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
     private lateinit var viewPagerAdapter: ViewPageAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         viewPagerAdapter = ViewPageAdapter(supportFragmentManager, lifecycle)
 
-        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
-            when(position){
-                0 -> tab.text = "Jajan"
-                1 -> tab.text = "Makanan Berat"
-            }
-        }.attach()
+        with(binding){
+            viewPager.adapter = viewPagerAdapter
+
+            TabLayoutMediator(tabLayout, viewPager) {tab, position ->
+                when(position){
+                    0 -> tab.text = "Jajan"
+                    1 -> tab.text = "Makanan"
+                }
+            }.attach()
+        }
+
     }
 
 }

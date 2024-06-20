@@ -6,10 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class MakananFragment : Fragment() {
-    companion object {
-        fun newInstance(): MakananFragment {
-            return MakananFragment()
+class JajanDetailsFragment : Fragment() {
+
+    companion object{
+        fun newInstance(): JajanDetailsFragment {
+            return JajanDetailsFragment()
         }
     }
 
@@ -18,6 +19,6 @@ class MakananFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_makanan, container, false)
+        return inflater.inflate(R.layout.fragment_jajan_details, container, false)
     }
 }
