@@ -5,12 +5,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.akhir.databinding.FragmentMakananDetailsBinding
+
 
 class MakananDetailsFragment : Fragment() {
 
     companion object {
-        fun newInstance(): MakananDetailsFragment {
-            return MakananDetailsFragment()
+
+        private const val MAKANANMODEL= "model"
+        fun newInstance(makananModel: MakananModel): MakananDetailsFragment {
+            val args = Bundle()
+            args.putSerializable(MAKANANMODEL, makananModel)
+            val fragment = MakananDetailsFragment()
+            fragment.arguments = args
+            return fragment
         }
     }
 
@@ -19,6 +27,12 @@ class MakananDetailsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_makanan_details, container, false)
+        val fragmentMakananDetailsBinding =
+            FragmentMakananDetailsBinding.inflate(inflater, container, false)
+
+        val model = arguments?.getSerializable(MAKANANMODEL) as MakananModel
+        fragmentMakananDetailsBinding.makananModel = model
+        model.text = String.format(getString(R.string.description_format), model.description)
+        return fragmentMakananDetailsBinding.root
     }
 }

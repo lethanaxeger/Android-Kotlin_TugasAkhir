@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="images">
+    <item>@drawable/risma</item>
+    <item>@drawable/gyoza</item>
+    <item>@drawable/cumsamjo</item>
+    <item>@drawable/gimmari</item>
+    <item>@drawable/katcu</item>
+    <item>@drawable/spagalio</item>
+    <item>@drawable/nasreng</item>
+    <item>@drawable/samroll</item>
+  </array>
+
+  <string-array name="names">
+    <item>Risol Mayo</item>
+    <item>Gyoza Udang Ayam</item>
+    <item>Cumi Sambal Ijo</item>
+    <item>Chicken Seaweed Rolls</item>
+    <item>Katsu Curry</item>
+    <item>Spaghetti Aglio e Olio</item>
+    <item>Nasi Goreng</item>
+    <item>Samyang Roll</item>
+  </string-array>
+
+  <string-array name="descriptions">
+    <item>Bahan Pembuatan :
+      Kulit : 250 gr tepung terigu, 2 sdm tepung sagu / tapioca, 1 bgks susu putih bubuk, 1 sdm minyak goring, 1 butir telur, 1/2 sdt garam, 500 ml air
+      Isian : 4 buah sosis, iris tipis, 3 butir telur rebus yang telah potong, 180 gr mayonnaise, 35 gr keju cheddar, 1 sachet susu kental manis
+
+      Cara Pembuatan :
+      1.	Campur semua bahan kulit, aduk hingga rata, halus dan tidak bergerindil.
+      2.	Ambil 1 sendok sayur adonan kulit, lalu buat dadar2 tipis diteflon. Lakukan hingga adonan habis. Sisakan satu mangkuk kecil adonan, untuk bahan pencelup nanti.
+      3.	Aduk rata bahan campuran mayonaise nya
+      4.	Siapkan dadar, oles dg campuran mayonaise. Beri potongan sosis dan telur rebus, lalu beri campuran mayonaise lg di atasnya. Lipat seperti amplop. Celupkan kedalam sisa adonan kulit, lalu gulingkan ke tepung roti.
+      5.	Goreng risoles hingga keemasan, lalu angkat</item>
+    <item>Bahan Pembuatan :
+      Bahan Gyoza : 1 pack Kulit Pangsit, uk 10 cm, 300 gr Daging ayam giling, 250 gr Daging Udang giling, 400 gr sawi putih, batang saja,	1 sdt bawang putih bubuk, 2 butir Telur, 3 sdm Minyak wijen, Kecap asin, saos tiram, gula, merica Secukupnya, 1 Sdm Tepung Terigu
+      Bahan Saus : 2 sdm minyak wijen, 2 sdm cuka, 2 sdm kecap manis, 1 sdm gula pasir
+
+
+      Cara Pembuatan :
+      1.	Bersihkan sawi putih. Ambil batang putihnya saja. Cacah.
+      2.	Haluskan udang dan dada ayam.
+      3.	Siapkan wadah masukkan udang dan ayam, telur, sawi, gula, garam, minyak wijen, bubuk bawang putih. Aduk rata.
+      4.	Tes rasa dgn cara merebus sedikit adonan. Sesuaikan dengan selera.
+      5.	Ambil 1 lembar kulit gyoza beri 1 sdm adonan, lipat. Gunakan air sebagai perekat.
+      6.	Siapkan wajan, oles minyak wijen secukupnya. Tata gyoza diatasnya masak sampai kecoklatan. Tuang air (untuk 15 gyoza ukuran kecil saya pakai 100 ml air, saya pakai teflon 20 cm).
+      7.	Tutup teflonnya, masak pakai api kecil. Biarkan air sampai habis dan gyoza matang.
+      8.	Sementara menunggu, kita buat saus cocolan. Campur semua bahan saus. Aduk rata.
+      9.	Setelah gyoza matang, tiriskan. Sajikan dengan saus cocolan.</item>
+    <item>Bahan Pembuatan :
+      250 gr cumi, 3 lembar daun jeruk (sobek-sobek), 150 ml air matang, ¼ jeruk nipis, 1 sdm kaldu jamur, 1 sdt gula, ½ sdt garam, ½ sdt lada bubuk, 8 siung bawang merah, 6 siung bawang putih, 8 buah cabe hijau besar, 1 butir kemiri (disangrai), 1 buah terasi, 2 buah tomat, 3 buah cabe hijau besar.
+
+      Cara Pembuatan :
+      1.	Potong-potong cumi, cuci dan didihkan 1 liter air dengan 2 lembar daun jeruk. Rebus kurang lebih 15 menit, hingga cumi empuk. Siapkan bahan-bahan yang diperlukan
+      2.	Tumis bumbu hingga harum, dengan api sedang. Sobek-sobek daun jeruk dan masukan ke dalam tumisan, masak hingga setengah matang
+      3.	Masukan potongan tomat hijau, tumis dan aduk merata, masukan potongan cabe hijau, disusul dengan cumi yang sudah direbus dan dipotong-potong.
+      4.	Aduk merata dan beri bumbu tabur. Terakhir kasih perasan jeruk nipis sesuai selera untuk menambah citarasa.
+      5.	Masak sejenak sampai airnya agak menyusut. Jangan lupa tes rasa. Tempatkan dalam wadah dan siap disajikan dengan nasi panas dan lauk lainnya.</item>
+    <item>Bahan Pembuatan :
+      600 gr ayam, 6 sdm tepung maizena, Garam, Lada bubuk, Paprika bubuk, Kaldu bubuk, 5 siung bawang putih, 2 putih telur, Saos tiram, Minyak wijen, Tepung terigu, Air
+
+      Cara Pembuatan :
+      1.	Siapakan ayam fillet dada/paha.
+      2.	Masukkan ayam, tepung maizena, garam, lada bubuk, paprika bubuk, kaldu bubuk, bawang putih, putih telur, saos tiram dan minyak wijen ke dalam chopper.
+      3.	Masukkan wortel yang sudah diparut ke dalam adonan ayam yang sudah dichopper tadi lalu aduk rata.
+      4.	Masukkan adonan ke dalam plastic pipingbag
+      5.	Potong ujung plastic agak besar
+      6.	Lalu tata adonan dari pipingbag tadi diatas nori sesuai selera
+      7.	Lalu gulung adonan nori berisi adonan tadi
+      8.	Diujung nori olesi larutan tepung
+      9.	Lalu potong gulungan ayam nori dan celupkan pada adonan tepung yang berisi tepung terigu, tepung maizena dan air.
+      10.	Goreng gulungan ayam dalam minyak panas sampai matang dan warnanya kecoklatan.
+      11.	Tiriskan lalu hidangkan.</item>
+    <item>Bahan Pembuatan :
+      ½ kg dada ayam fillet, 1 bungkus bumbub racik kare (bisa merk lain), 2 buah worter, 2 buah kentang, 2 siung bawang putih, 3 sdm tepung maizena, 1 buah daun bawang, 2 siung bawang putih (haluskan), Garam, Lada, 1 bungkus tepung serba guna, 1 sdm tepung maizena, Tepung panir, air
+
+      Cara Pembuatan :
+      1.	Marinasi ayam dengan bumbu marinasi selama 20 menit. Sisihkan.
+      2.	Siapkan bahan pelapis. Campur tepung bumbu, tepung maizena, dan sedikit air hingga bertekstur kental. Masukkan satu per satu irisan ayam ke dalam bahan pelapis. Angkat lalu lapisi dengan tepung panir. Ulangi untuk semua irisan ayam setelah itu masukkan ke kulkas selama 20 menit.
+      3.	Goreng ayam katsu hingga berwarna keemasan. Jika sudah matang, angkat dan tiriskan.
+      4.	Siapkan bahan kuah kare. Kupas wortel dan kentang. Iris dadu kecil lalu rebus hingga setengah matang.
+      5.	Iris tipis bawang putih. Tumis hingga harum lalu tambahkan bumbu kare. Masukkan 800 ml air, bumbui dengan garam dan lada. Koreksi rasa lalu masak hingga mendidih. Jika air sudah agak menyusut, kecilkan api. Masukkan tepung maizena yang sudah dilarutkan air ke dalam kuah kare. Aduk hingga mengental dan semua bahan matang.
+      6.	Sajikan ayam katsu dan kare dengan nasi hangat, hiasi irisan daun bawang di atasnya. Chicken katsu curry siap dihidangkan.</item>
+    <item>Bahan Pembuatan :
+      100 gr spaghetti, 2 buah jamur kancing, Ham, 2 siung bawang putih, Seledri, Merica bubuk, ½ sdt kaldu jamur, ½ sdt garam, 1 sdt keju parmesan, Bubuk cabai
+
+      Cara Pembuatan :
+      1.	Rebus spaghetti sampai al dente. Tiriskan dan sisakan sedikit air rebusannya.
+      2.	Tumis ham dengan sedikit minyak, masukkan bawang putih tumis sampai sedikit kekuningan, masukkan jamur kancing yg sudah di potong. Aduk sesekali sampai matang.
+      3.	Masukkan spaghetti dan sedikit air rebusannya. Kemudian seasoning dengan garam, merica, kaldu jamur, bubuk cabai, keju parmesan.
+      4.	Tambahkan irisan seledri. Koreksi rasa dan siap dihidangkan.</item>
+    <item>Bahan Pembuatan :
+     Nasi putih, 2 butir telur, Ayam suwir (secukupnya), Udang kupas (secukupnya), Sosis, Kacang polong, 3 siung bawang putih, 2 siung bawang merah, 2 sdm kecap manis, 1 sdm saus tiram, Garam (secukupnya), Gula (secukupnya), Merica (secukupnya), Mentega,
+
+      Cara Pembuatan :
+      1.	Cincang halus bawang putih dan bawang merah
+      2.	Siapkan kompor dan wajan lalu panaskan mentega
+      3.	Setelah mencair, tumis bawang putih dan bawang merah hingga harum
+      4.	Masukkan udang dan ayam suwir lalu tumis hingga udang matang
+      5.	Sisihkan bahan ke sisi wajan, pecahkan telur, orak-arik lalu masukkan nasi, aduk hingga rata
+      6.	Tambahkan kecap manis, saus tiram, garam, gula, merica secukupnya. Aduk hingga semua bahan tercampur dengan rata
+      7.	Sajikan nasi goreng dengan tambahan acar dan kerupuk</item>
+    <item>Bahan Pembuatan :
+      1 bungkus samyang spicy chicken ramen, 5 lembar rice paper, biji wijen putih secukupnya, nori bubuk secukupnya, air secukupnya
+
+      Cara Pembuatan :
+      1.  Rebus air di dalam panci hingga mendidih
+      2.	Masukkan mie samyang, rebus hingga setengah matang. Lalu angkat
+      3.	Campurkan bumbu samyang di piring, aduk rata
+      4.	Jika sudah merata, potong-potong mie samyang
+      5.	Rendam satu persatu rice paper ke dalam air selama 1-3 menit sampai mudah dibentuk
+      6.	Letakkan mie samyang yang sudah dipotong di atas selembar rice paper yang sudah direndam air
+      7.	Ulangi hingga mie samyang habis, kemudian gulung dengan rapi
+      8.	Beri taburan biji wijen dan nori di atasnya, dan sajikan.
+</item>
+  </string-array>
+
+  <string-array name="urls">
+    <item>https://www.akc.org/dog-breeds/labrador-retriever/</item>
+    <item>https://www.akc.org/dog-breeds/alaskan-malamute/</item>
+    <item>https://www.akc.org/dog-breeds/siberian-husky/</item>
+    <item>https://www.akc.org/dog-breeds/pomeranian/</item>
+    <item>https://www.akc.org/dog-breeds/redbone-coonhound/</item>
+    <item>https://www.akc.org/dog-breeds/rottweiler/</item>
+    <item>https://www.akc.org/dog-breeds/belgian-sheepdog/</item>
+    <item>https://www.akc.org/dog-breeds/welsh-springer-spaniel/</item>
+  </string-array>
+</resources>
