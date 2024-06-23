@@ -1,9 +1,10 @@
 package com.example.akhir
 
+import android.hardware.SensorEventListener
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), MakananFragment.OnFoodSelected {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
     }
-    override fun onMakananSelected(makananModel: MakananModel) {
+    override fun onFoodSelected(makananModel: MakananModel) {
         val detailsFragment =
             MakananDetailsFragment.newInstance(makananModel)
         supportFragmentManager
@@ -24,5 +25,4 @@ class MainActivity : AppCompatActivity() {
             .addToBackStack(null)
             .commit()
     }
-
 }

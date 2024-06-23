@@ -15,7 +15,7 @@ class MakananFragment : Fragment() {
     private lateinit var imageResIds: IntArray
     private lateinit var names: Array<String>
     private lateinit var descriptions: Array<String>
-    private lateinit var listener: OnMakananSelected
+    private lateinit var listener: OnFoodSelected
 
     companion object {
         fun newInstance(): MakananFragment {
@@ -26,7 +26,7 @@ class MakananFragment : Fragment() {
     override fun onAttach(context: Context) {
         super.onAttach(context)
 
-        if (context is OnMakananSelected) {
+        if (context is OnFoodSelected) {
             listener = context
         } else {
             throw ClassCastException(context.toString() + " must implement OnMakananSelected.")
@@ -73,7 +73,7 @@ class MakananFragment : Fragment() {
             val food = MakananModel(imageResIds[position], names[position],
                 descriptions[position])
             viewHolder.setData(food)
-            viewHolder.itemView.setOnClickListener { listener.onMakananSelected(food) }
+            viewHolder.itemView.setOnClickListener { listener.onFoodSelected(food) }
         }
 
         override fun getItemCount() = names.size
@@ -90,7 +90,7 @@ class MakananFragment : Fragment() {
         }
     }
 
-    interface OnMakananSelected {
-        fun onMakananSelected(makananModel: MakananModel)
+    interface OnFoodSelected {
+        fun onFoodSelected(makananModel: MakananModel)
     }
 }

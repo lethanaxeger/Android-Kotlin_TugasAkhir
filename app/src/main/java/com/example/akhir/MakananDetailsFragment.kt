@@ -15,7 +15,7 @@ class MakananDetailsFragment : Fragment() {
         private const val MAKANANMODEL= "model"
         fun newInstance(makananModel: MakananModel): MakananDetailsFragment {
             val args = Bundle()
-            args.putSerializable(MAKANANMODEL, makananModel)
+            args.putParcelable(MAKANANMODEL, makananModel)
             val fragment = MakananDetailsFragment()
             fragment.arguments = args
             return fragment
@@ -26,11 +26,11 @@ class MakananDetailsFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val fragmentMakananDetailsBinding =
             FragmentMakananDetailsBinding.inflate(inflater, container, false)
 
-        val model = arguments?.getSerializable(MAKANANMODEL) as MakananModel
+        val model = arguments?.getParcelable<MakananModel>(MAKANANMODEL) as MakananModel
         fragmentMakananDetailsBinding.makananModel = model
         model.text = String.format(getString(R.string.description_format), model.description)
         return fragmentMakananDetailsBinding.root

@@ -1,8 +1,12 @@
 package com.example.akhir
 
-import java.io.Serializable
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-data class MakananModel(val imageResId: Int,
-                    val name: String,
-                    val description: String,
-                    var text: String = "") : Serializable
+@Parcelize
+data class MakananModel(
+    val imageResId: Int,
+    val name: String,
+    val description: String,
+    var text: String? = null
+) : Parcelable
